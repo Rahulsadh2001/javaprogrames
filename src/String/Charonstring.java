@@ -12,10 +12,11 @@ public class Charonstring {
 			if (input.charAt(i)==search) {
 				System.out.println("The index number is :" +i);
 				count++;
+				//System.out.println(search);
 				
 			}
 					}
-		System.out.println("The Character appears "+ count  +" times");
+		System.out.println("The Character  "+ search+ " appear "+ count  +" times" );
 	}
 	
 

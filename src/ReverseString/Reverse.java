@@ -5,17 +5,10 @@ public class Reverse {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
-		String s="Reverse string by java";
-		
+		int count =0;
+		String s="by java";
+	String newva=	s.replace('b', 't');
+	System.out.println(newva);
    //Splits a string into an array of substrings
 		
-	String str[]=	s.split("");
-	
-		for (int i=str.length-1  ;i>=0;i--) {
-			
-			System.out.println(str[i]);
-		}
-	}
-
-}
+	}}

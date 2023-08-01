@@ -10,11 +10,17 @@ import java.util.HashMap;
 public class Hashmap {
 
 	public static void main(String[] args) {
-		 HashMap<String, Integer> map = new HashMap<>();
+		 //HashMap<String, Integer> map = new HashMap<>();
+		 HashMap<String,Integer> store=new HashMap<>();
 	
-		map.put("rahul",123);
+		store.put("rahul", 56);
+		store.put("karishma", 55);
+		store.put("rocks", 54);
+		store.put("saxena", 55);
+		store.put("saxena", 25);
 		
-		System.out.println(map);
+		
+		System.out.println(store.get("saxena"));
 	
                                                                                                     
 	}

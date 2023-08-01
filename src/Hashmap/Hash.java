@@ -27,9 +27,11 @@ public class Hash {
 		
 		System.out.println(hashmap.get(1));
 		System.out.println(hashmap.get(2));
+	
+	System.out.println(	hashmap.keySet());
 		
-		int r=hashmap.hashCode();
-		System.out.println(r);
+		
+	
 	}
 
 }

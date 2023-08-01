@@ -6,11 +6,11 @@ public class R {
 		
 		String name="Rahul#$%#$55Interview";
 		
-		String [] c=name.split("");
-		
+		String[] c=name.split(name);
+		String search="#";
 	for (int i=0;i<c.length;i++)
-if (c[i]=="#") {
-	System.out.println("found special char");
-	}
+if (c[i]==search) {
+	System.out.println("found special char"+c[i]);
+		}
 
 	}}
